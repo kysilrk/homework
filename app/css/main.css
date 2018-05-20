@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  width: 840px;
+  margin: 0 auto; }
+  @media (max-width: 840px) {
+    body {
+      width: 100%;
+      margin: 0 2%; } }
+
+header {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  header div img {
+    width: 86px; }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    header ul li {
+      list-style-type: none;
+      margin: 10px 15px; }
+      header ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 16px; }
+        header ul li a:hover {
+          color: blue;
+          transition: 0.4s; }
+
+.image__block {
+  height: 270px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .image__block .image__block__image {
+    padding: 18px 15px 15px 30px; }
+    @media (max-width: 803px) {
+      .image__block .image__block__image {
+        padding: 18px 15px 15px 10px; } }
+    .image__block .image__block__image img {
+      width: 380px; }
+      @media (max-width: 803px) {
+        .image__block .image__block__image img {
+          display: none; } }
+  .image__block .image__block__text__bold {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 18px 20px 15px 0; }
+  .image__block .image__block__text__thin {
+    font-family: 'Times New Roman', serif;
+    color: #8d8d8d;
+    font-size: 14px;
+    padding: 0 26px 33px 0; }
+  .image__block .image__block__text__button a {
+    font-family: Tahoma, serif;
+    font-size: 13px;
+    padding: 9px 35px;
+    background-color: #d53f36;
+    text-align: center;
+    text-decoration: none;
+    color: #fefefe;
+    border-radius: 5px; }
+    .image__block .image__block__text__button a:hover {
+      background-color: blue;
+      transition: 0.7s; }
+
+.content__block {
+  margin-top: 25px;
+  margin-bottom: 145px; }
+  .content__block .content__block__first div h3 {
+    font-family: Tahoma ,serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px; }
+  .content__block .content__block__first__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px; }
+    .content__block .content__block__first__items div {
+      float: right;
+      padding: 0 22px 35px 0; }
+    .content__block .content__block__first__items img {
+      padding-right: 15px; }
+    .content__block .content__block__first__items .content__block__first__items__text {
+      font-family: "Times New Roman", serif;
+      font-style: italic;
+      font-size: 14px;
+      padding-top: 5px; }
+
+.main__text {
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+  color: #8d8d8d;
+  padding-bottom: 15px; }
+
+h4 {
+  font-family: Tahoma ,serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px; }

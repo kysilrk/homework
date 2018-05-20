@@ -1,0 +1,51 @@
+.content__block {
+  margin-top: 25px;
+  margin-bottom: 145px;
+  .content__block__first {
+    div {
+
+      h3 {
+        font-family: Tahoma ,serif;
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom:10px;
+      }
+      div {
+
+      }
+    }
+  }
+  .content__block__first__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+    div {
+      float: right;
+      padding: 0 22px 35px 0;
+    }
+    img{
+padding-right: 15px;
+    }
+    .content__block__first__items__text{
+      font-family: "Times New Roman", serif;
+      font-style: italic;
+      font-size: 14px;
+      padding-top: 5px;
+    }
+
+  }
+}
+.main__text{ //дрібний текст
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+  color :#8d8d8d;
+  padding-bottom: 15px;
+}
+h4{  //заголовки
+  font-family: Tahoma ,serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+}

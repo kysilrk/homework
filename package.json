@@ -1,0 +1,24 @@
+{
+  "name": "homeworkwp",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kysilrk/homework.git"
+  },
+  "author": "Kysil R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kysilrk/homework/issues"
+  },
+  "homepage": "https://github.com/kysilrk/homework#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0"
+  }
+}
